@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; line-height: 1.6; color: #1e293b; }
+.container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+header { background: white; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; }
+.nav-container { display: flex; justify-content: space-between; align-items: center; height: 70px; }
+.logo { font-size: 1.3rem; font-weight: 800; color: #0f4c81; }
+.logo span { font-weight: 400; }
+nav a { margin-left: 15px; text-decoration: none; color: #1e293b; font-weight: 500; }
+.btn-nav { background: #0f4c81; color: white !important; padding: 8px 14px; border-radius: 4px; }
+.hero { background: linear-gradient(135deg, #0f4c81 0%, #1b365d 100%); color: white; padding: 60px 20px; text-align: center; }
+.hero h1 { font-size: 2.2rem; margin-bottom: 15px; }
+.hero .subtitle { font-size: 1.1rem; max-width: 650px; margin: 0 auto 20px; color: #e2e8f0; }
+.btn-primary { background: #00a896; color: white; padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; }
+.trust-badge { font-size: 0.9rem; color: #cbd5e1; margin-top: 15px; font-style: italic; }
+h2 { text-align: center; color: #0f4c81; margin-bottom: 25px; }
